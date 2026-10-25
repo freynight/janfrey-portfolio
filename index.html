@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janfrey | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Janfrey<span>DelaCruz</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#midterm">Midterm</a></li>
+                <li><a href="#finals">Finals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="tag">👋 Welcome to my portfolio</p>
+                <h1>Hi!, I'm <span class="grad">Janfrey</span></h1>
+                <p class="sub">BS Information Technology Student<br>
+                    <span id="typing"></span><span class="cursor">|</span>
+                </p>
+                <a href="#midterm" class="btn">View My Works</a>
+            </div>
+
+            <div class="hero-image">
+                <img id="profilePic" src="School.jpg" alt="Janfrey profile picture">
+                <p class="hint">👆 Click me!</p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about reveal">
+            <h2>About Me</h2>
+            <p>
+            Hi! I'm Janfrey Diezel P. Dela Cruz, a BSIT student who loves turning ideas into
+            working websites. I enjoy learning by doing, from writing my first lines of
+            HTML to adding animations with JavaScript, and I'm always looking for ways
+            to make my projects look better and work smoother.
+            </p>
+        </section>
+
+        <section id="skills" class="skills reveal">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill" style="--c:#f97316">HTML</div>
+                <div class="skill" style="--c:#38bdf8">CSS</div>
+                <div class="skill" style="--c:#facc15">JavaScript</div>
+                <div class="skill" style="--c:#ef4444">Formatting</div>
+                <div class="skill" style="--c:#a78bfa">Troubleshooting</div>
+                <div class="skill" style="--c:#e5e7eb">Desktop Technician</div>
+            </div>
+        </section>
+
+        <!-- MIDTERM -->
+        <section id="midterm" class="work reveal">
+            <h2>Midterm Activities</h2>
+            <div class="project-grid" id="midtermGrid"></div>
+        </section>
+
+        <!-- FINALS -->
+        <section id="finals" class="work reveal">
+            <h2>Finals Activities</h2>
+            <div class="project-grid" id="finalsGrid"></div>
+        </section>
+
+        <section id="contact" class="contact reveal">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:janfreydiezeldelacruz0124@gmail.com">janfreydiezeldelacruz0124@gmail.com</a></p>
+            <p>Phone: 0907-498-0818</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 PDM | Student Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

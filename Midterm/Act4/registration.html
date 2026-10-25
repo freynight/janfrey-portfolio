@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <b>My Personal Website</b>
+<p>Welcome to My Personal Student Portal</p>
+</header>
+
+<nav>
+    <a href="home.html">HOME</a>
+    <a href="registration.html">REGISTRATION</a>
+    <a href="grade.html">GRADES</a>
+    <a href="profile.html">PROFILE</a>
+    </nav>
+
+<form>
+    <h2>Student Registration Form</h2><br>
+    <label>Student Name</label><br>
+    <input type="Name" placeholder="Enter Name" required><br>
+    <label>Email</label><br>
+    <input type="Email" placeholder="Enter Email" required><br>
+    <label>Password</label><br>
+    <input type="Password" placeholder="Enter Password" required><br>
+    <label>Gender</label><br>
+    <input type="radio" name="Gender" value="male" required> Male
+    <input type="radio" name="Gender" value="female" required> Female<br>
+    <label>Course</label><br>
+    <select name="dropdown">
+        <option value="BSIT" selected>BSIT</option>
+        <option value="BSIT" selected>BSCS</option>
+        <option value="BSIT" selected>BSTM</option>
+        <option value="BSIT" selected>BSHM</option>
+        </select><br>
+    <label>Skills</label><br>
+    <input type="checkbox" name="HTML" value="on" required> HTML
+    <input type="checkbox" name="CSS" value="on" required> CSS
+    <input type="checkbox" name="JAVA" value="on" required> JAVASCRIPT
+    <br>
+    <label>Profile Picture</label><br>
+    <input type="file" name="fileupload" accept="image*" required/>
+    <label>Address</label><br>
+    <textarea rows="5" cols="50" name="Description" placeholder="here...."></textarea><br>
+    <button type="submit">Submit</button>
+    <button type="cancel">Cancel</button>
+</form>
+</body>
+</html>

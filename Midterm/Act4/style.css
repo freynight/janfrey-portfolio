@@ -1,0 +1,89 @@
+header{
+    margin: 2px;
+    padding: 10px;
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+b{
+    font-size: 30px;
+    font-style:italic
+}
+
+nav{
+    margin:2px;
+    padding: 5px;
+    display: flex;
+    background-color: rgba(247, 193, 142, 0.705);
+    justify-content: center;
+    gap: 10px;
+}
+
+body{
+    background-color: rgb(188, 241, 183)
+}
+
+section{
+    margin:2px;
+    padding: 10px;
+    background-color: rgb(237, 250, 162);
+}
+
+div{
+    display: flex;
+    flex: 1;
+}
+
+aside{
+    margin: 2px;;
+    padding: 10px;
+    background-color: rgb(190, 204, 245);
+    display: flex;
+    flex: 1;
+}
+
+footer{
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(255, 163, 214);
+}
+
+.link a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: azure;
+    text-decoration: underline;
+    border-radius: 3px;
+}
+
+table{
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 6px rgb(13, 31, 58);
+}
+th,td{
+    padding: 12px;
+    text-align: center;
+    border:1px solid #504a4a;
+    box-shadow: 0 2px 6px rgb(13, 31, 58);
+}
+
+th{
+    background: cyan;
+    color:#504a4a
+}
+
+form{
+    margin: 0%;
+    padding: 10px;
+    border: 2px solid;
+    background-color: aqua;
+    text-align: center;
+}

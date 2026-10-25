@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(90deg, rgb(183, 236, 236), rgb(248, 248, 211), rgb(166, 247, 197));
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    position: sticky;
+}
+
+nav a:hover{
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+section h1:hover{
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+nav h2:hover{
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 5px;
+    position: sticky;
+}
+.light:hover{
+    background-color: rgb(241, 250, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    border-radius: circle;
+    width: 90px;
+    height: 80px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a{
+    border: 2px solid;
+    background-color: rgb(206, 253, 167);
+}
+
+.b{
+    border: 2px solid;
+    background-color: rgb(218, 248, 136);
+}
+
+h2{
+    font-size: 75px;
+}
+.logo1 img{
+    border: 2px solid;
+    display: flex;
+}
+
+footer :hover{
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+footer{
+    background: linear-gradient(90deg, rgb(228, 155, 238), rgb(221, 120, 235), rgb(228, 155, 238));
+    display: flex;
+}

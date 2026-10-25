@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body style="margin: 0;">
+
+<header style="background-color: beige; padding: 20px; text-align: center;">
+    <h1>Student Registration Form</h1>
+    <p>Apply Student Form</p>
+</header>
+
+<nav style="background-color: aquamarine; display: flex; justify-content: center; gap: 100px; padding: 10px;">
+    <a href="Home.html">Home</a>
+    <a href="form.html">Registration Form</a>
+    <a href="table.html">Grade Table</a>
+    <a href="profile.html">My Profile</a>
+</nav>
+
+<form>
+Student Name: <br><input type="text" name="student_name" />
+<br></br>
+Student Number: <br><input type="text" name="student_number" />
+<br></br>
+Email: <br><input type="text" name="email" />
+<br></br>
+Gender
+<br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<br></br>
+Course
+<br>
+<select name="dropdown">
+    <option value="bsit" selected>BSIT</option>
+    <option value="bscs" selected>BSCS</option>
+    <option value="bstm" selected>BSTM</option>
+    <option value="bshm" selected>BSHM</option>
+    </select>
+<br></br>
+
+Skills<br>
+    <input type="checkbox" name="html" value="on"> HTML
+    <input type="checkbox" name="css" value="on"> CSS
+    <input type="checkbox" name="java_script" value="on"> JAVA SCRIPT
+<br></br>
+
+<Address>
+    Description: <br />
+<textarea rows="5" cols="50" name="description" placeholder=" Enter description here... "></textarea>
+</Address>
+<br></br>
+
+
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset"  value="Reset" />
+<input type="image" name="imagebutton" src="/html/images/logo.png" />
+
+</form>
+
+<footer style="background-color: rgb(238, 126, 126); text-align: center; padding: 15px;">
+    Copyright @ 2026
+</footer>
+
+</body>
+</html>
