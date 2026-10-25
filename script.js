@@ -19,9 +19,9 @@ const midterm = [
 ];
 
 const finals = [
-    { title: "Final 1", desc: "Palitan mo ng description.", img: "images/f-1.png", link: "Finals/Final1/Portfolio.html" },
-    { title: "Final 2", desc: "Palitan mo ng description.", img: "images/f-2.png", link: "Finals/Final2/index.html" },
-    { title: "Final 3", desc: "Palitan mo ng description.", img: "images/f-3.png", link: "Finals/Final3/Index.html" }
+    { title: "Final 1", desc: "Final Number 1.", img: "images/f-1.png", link: "Finals/Final1/Portfolio.html" },
+    { title: "Final 2", desc: "Final Number 2.", img: "images/f-2.png", link: "Finals/Final2/index.html" },
+    { title: "Final 3", desc: "Final Number 3.", img: "images/f-3.png", link: "Finals/Final3/Index.html" }
 ];
 
 function renderCards(list, gridId) {
